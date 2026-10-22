@@ -1,4 +1,4 @@
-# False-Consensus Benchmark (draft)
+# False-Consensus Benchmark
 
 > DRAFT. Not public. Pending review.
 
