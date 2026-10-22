@@ -1,6 +1,6 @@
 # Results: run of 2026-10-22 (12:45 UTC-3)
 
-DRAFT. One run, 20 cases plus 1 receipt verification (21 calls on the free tier, $0), against the Screwtape API as of 2026-10-22. Raw responses with signed receipts are in `results.jsonl`.
+One run, 20 cases plus 1 receipt verification (21 calls on the free tier, $0), against the Screwtape API as of 2026-10-22. Raw responses with signed receipts are in `results.jsonl`.
 
 **Scoring rule:** a consensus case counts as flagged when `false_consensus_risk` is `high` or `medium`. A judge case counts as flagged when `verdict` is not `pass`. Split cases (FC-10 to FC-12) are expected `no flag`: agents disagree but the top answer returned is correct, so low risk with the correct `consensus_answer` is the intended behaviour and scores as a correct pass. Low risk with a wrong answer would be a miss.
 
