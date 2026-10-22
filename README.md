@@ -1,7 +1,5 @@
 # False-Consensus Benchmark
 
-> DRAFT. Not public. Pending review.
-
 When several agents agree, it is tempting to treat the agreement as proof. **False consensus** is the case where agents agree, or a majority agrees, and are still wrong. It is a general multi-agent problem. It can happen in any orchestration setup, whatever the framework or model provider. This repo is a small, reproducible test set for that problem, plus a harness that runs it against the public Screwtape API.
 
 An independent judge for your agents. Screwtape isn't tied to any agent framework or AI model provider, so its verdicts are never grading their own work. Every verdict comes with a signed receipt you can verify yourself, which gives you a record you can trust when it matters.
