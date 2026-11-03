@@ -2,7 +2,7 @@
 
 When several agents agree, it is tempting to treat the agreement as proof. **False consensus** is the case where agents agree, or a majority agrees, and are still wrong. It is a general multi-agent problem. It can happen in any orchestration setup, whatever the framework or model provider. This repo is a small, reproducible test set for that problem, plus a harness that runs it against the public Screwtape API.
 
-An independent judge for your agents. Screwtape is independent of your agent's own model and vendor, with no stake in your agent passing. Every verdict comes with a signed receipt you can verify yourself, which gives you a record you can trust when it matters.
+A judge for your agents that sits outside your agent stack, with no stake in your agent passing. Every verdict comes with a signed receipt you can verify yourself, which gives you a record you can trust when it matters.
 
 ## Contents
 - `cases.jsonl`: 20 cases (16 consensus and 4 single-output judge cases). Each case has the exact task, per-agent outputs, expected truth, a verifiable source (a URL or the arithmetic), and its provenance. **All cases are constructed/synthetic.** The outputs are hand-written and none of them is a documented real-world incident.
